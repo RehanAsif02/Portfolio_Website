@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="home">
     <header>
         <div class="logo">REHAN ASIF</div>
         <nav class="nav">
@@ -20,75 +20,97 @@
             </ul>
         </nav>
     </header>
-    <div class="main" id="home">
-        <div class="infobox">
-            <h1 class="mh1">Hi!</h1>
-            <h3 class="mh2">I'm Rehan Asif</h3>
-        </div>
-        <div class="button">
-            <button>
-                <a href="#contact" class="main-button">Contact Me</a>
-            </button>
-        </div>
-    </div>
-    <!-- <div class="about" id="about">
-
-    </div> -->
-    <div class="skills" id="skills">
-        <p class="spara">Skills i have in!</p>
-        <div class="sbox">
-
-            <figure class="langfig">
-                <a href="https://forum.freecodecamp.org/t/w3schools-city-project/528051" class=".langa">
-                    <img src="c++.png" alt="C++logo" class="langimg">
-                    <figcaption class="langcap">C++</figcaption>
-                </a>
-            </figure>
-
-            <figure class="langfig">
-                <a href="">
-                    <img src="html.png" alt="HTMLlogo" class="langimg">
-                    <figcaption class="langcap">HTML</figcaption>
-                </a>
-            </figure>
-
-            <figure class="langfig">
-                <a href="">
-                    <img src="css.png" alt="CSSlogo" class="langimg">
-                    <figcaption class="langcap">CSS</figcaption>
-                </a>
-            </figure>
-
-            <figure class="langfig">
-                <a href="">
-                    <img src="python.png" alt="PYTHONlogo" class="langimg">
-                    <figcaption class="langcap">PYTHON</figcaption>
-                </a>
-            </figure>
-        </div>
-    </div>
-    <div class="contact" id="contact">
-        <div class="contact-h">
-            <h2>Contact Me</h2>
-        </div>
-        <div class="contactbox-form">
-            <!-- <a href="mailto:youremail@example.com">Send an Email</a> -->
-            <form>
-                <div class="form-contents">
-                    <!-- <label for="name" class="form-content">YOUR NAME:</label> -->
-                    <input type="text" placeholder="Your Name" id="name" />
-
-                    <!-- <label for="email" class="form-content">YOUR EMAIL:</label> -->
-                    <input type="email" placeholder="Your Email" id="email" required />
-
-                    <!-- <label for="text" class="form-content">YOUR MESSAGE:</label> -->
-                    <textarea placeholder="Your Message" id="text"></textarea>
-
+    <div class="main-background-image">
+        <div class="main" id="about">
+            <div class="icon-box">
+                <img src="icon2.png" alt="icon-img" class="icon-img">
+            </div>
+            <div class="main-content-box">
+                <div class="infobox">
+                    <p class="mh1">Hi!</p>
+                    <p class="mh2">I'm Rehan Asif</p>
+                    <p class="main-para">I'm the student of University of Lahore doing my bachelors in BSIET.</p>
+                    <p class="main-para">I'm in 4<sup>th</sup> Semester,Department of Technology in Section J.</p>
+                    <p class="main-para">I'm a good Developer in html or css and this my term project of portfolio
+                        website.
+                    </p>
                 </div>
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
+                <div class="main-button-box">
+                    <button class="main-button">
+                        <a href="#contact" class="main-button-a">Contact Me</a>
+                    </button>
+                </div>
+            </div>
+        </div><hr class="divider">
+        <!-- <div class="about" id="about">
+
+        </div> -->
+        <div class="skills" id="skills">
+            <p class="spara">Skills i have in!</p>
+            <div class="sbox">
+
+                <figure class="langfig">
+                    <a href="https://forum.freecodecamp.org/t/w3schools-city-project/528051" class=".langa">
+                        <img src="c++.png" alt="C++logo" class="langimg">
+                        <figcaption class="langcap">C++</figcaption>
+                    </a>
+                </figure>
+
+                <figure class="langfig">
+                    <a href="">
+                        <img src="html.png" alt="HTMLlogo" class="langimg">
+                        <figcaption class="langcap">HTML</figcaption>
+                    </a>
+                </figure>
+
+                <figure class="langfig">
+                    <a href="">
+                        <img src="css.png" alt="CSSlogo" class="langimg">
+                        <figcaption class="langcap">CSS</figcaption>
+                    </a>
+                </figure>
+
+                <figure class="langfig">
+                    <a href="">
+                        <img src="python.png" alt="PYTHONlogo" class="langimg">
+                        <figcaption class="langcap">PYTHON</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </div><hr class="divider">
+        <div class="contact" id="contact">
+            <div class="contact-h">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contactbox-form">
+                <!-- <a href="mailto:youremail@example.com">Send an Email</a> -->
+                <form>
+                    <div class="form-contents">
+                        <!-- <label for="name" class="form-content">YOUR NAME:</label> -->
+                        <input type="text" placeholder="Your Name" id="name" />
+
+                        <!-- <label for="email" class="form-content">YOUR EMAIL:</label> -->
+                        <input type="email" placeholder="Your Email" id="email" required />
+
+                        <!-- <label for="text" class="form-content">YOUR MESSAGE:</label> -->
+                        <textarea placeholder="Your Message" id="text"></textarea>
+
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <a href="#" class="profiles-links-a">GitHub</a>
+            |
+            <a href="#" class="profiles-links-a">Gmail</a>
+        </div>
+        <div class="footer-text">
+            <p>Thanks for visiting me!</p>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -7,6 +7,7 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 100px;
   /* position: sticky;
@@ -14,40 +15,105 @@ header {
 }
 .nav ul {
   margin-right: 85px;
-  padding: 28px;
+  /* padding: 28px; */
 }
 .nav ul a {
   text-decoration: none;
   color: white;
-  margin: 20px;
+  margin: 15px;
+}
+.nav ul a:hover{
+  font-size: large;
+  color: brown;
 }
 .logo {
-  margin: 45px 36px;
+  margin-left: 36px;
+  font-size: xx-large;
+  font-family:cursive;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 2px 2px brown;
+}
+.main-background-image{
+  background-image: url(back2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .main {
-  background-color: bisque;
+  /* background-color: bisque; */
   height: 70vh;
-  display: grid;
+  display: flex;
   justify-content: center;
+  /* background-image: url(back2.png);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  /* background-image: url(icon2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
 }
+.icon-box{  
+  margin-top: 100px;
+  width: 225px;
+}
+.icon-img{
+  height: 215px;
+  width: 215px;
+  border: solid 3px black;
+  border-radius: 50%;
+}
+.main-content-box{
+  margin-top: 140px;
+  margin-left: 20px;
+  /* color: white; */
+}
+.main-content-box .infobox .mh1{
+  font-size: 50px;
+  text-decoration: double;
+}
+.main-content-box .infobox .mh2{
+  font-size: 30px;
+}
+.main-content-box .infobox .main-para{
+  font-size: large;
+}
+.main-button-box{
+  margin-top: 15px;
+}
+.main-button{
+  height: 27px;
+  width: 130px;
+  border-radius: 4px;
+}
+.main-button:hover{
+  box-shadow: 4px 4px;
+  /* color: brown; */
+}
+.main-button-a{
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  font-size: x-large;
+}
+
 /* .about {
   background-color: rgb(75, 52, 21);
   height: 70vh;
 } */
 .skills {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   height: 70vh;
   /* display: grid;
   justify-content: center; */
 }
 .spara {
-  color: white;
-  margin-left: 620px;
+  color: rgb(0, 0, 0);
+  margin-left: 540px;
   padding-top: 40px;
   font-size: 40px;
 }
 .sbox {
-  display: grid;
+  display: grid; 
   /* justify-content: space-between; */
   grid-template-columns: auto auto auto auto;
   margin: 80px;
@@ -62,6 +128,8 @@ header {
 } */
 .langfig {
   text-align: center;
+  padding-left: 15px; 
+  box-shadow: 3px 3px 3px brown;
 }
 .langfig a {
   text-decoration: none;
@@ -76,12 +144,13 @@ header {
   transition: ease;
   width: 240px;
   height: 225px;
-  border: 2px rgb(0, 0, 0) solid;
+  border: 2px brown solid;
+  /* box-shadow: 3px 3px 3px brown; */
   font-size: 30px;
   text-decoration: double;
 }
 .contact {
-  background-color: brown;
+  /* background-color: brown; */
   height: 70vh;
   display: grid;
   justify-content: center;
@@ -158,7 +227,32 @@ header {
   cursor: pointer;
 }
 .contactbox-form .submit-button:hover{
-background: rgb(55, 69, 75);
+/* background: rgb(99, 0, 0); */
+border-color: brown;
 width: 144px;
 font-size: large;
+}
+.footer{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profiles-links-a{
+  color: white;
+  text-decoration: none;
+}
+.profiles-links-a:hover{
+  color: brown;
+}
+.footer-text{
+  font-size: x-large;
+}
+.divider{
+  height: 2px;
+  background-color: #000000;
 }
